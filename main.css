@@ -1,0 +1,122 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+.input3{
+  font-size: 28px;
+  border-radius: 30%;
+  background-color: salmon;
+  }
+ 
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+*{
+  @media only screen and(max: device width 1024px;)
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body { 
+background-color:lemonchiffon;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header ul{
+  width:80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: darkslateblue;
+  
+}
+
+
+
+*{
+  font-family:'Kaushan Script', cursive; 
+}
+
+.lastSection span{
+  text-align: center;
+}
+
+* ul{
+  list-style-type: none;
+}
+h1, h2{
+  font-family: 'Kaushan Script', cursive;
+  font-weight:bold;
+}
+  
+
+
+.topSection{
+  
+  height: 400px;
+  width:100%;
+  text-align: center;
+  background-image: url("cuisine.jpg");
+  background-size: cover;
+  color: darkslateblue;
+  margin-bottom: -1.6%;
+  
+  
+}
+
+.midSection{
+  
+  height:300px;
+  text-align: center;
+  background:lightgrey;
+  color: darkslateblue;
+  margin-bottom: -1.7%;
+}
+.sectionOther{
+
+  text-align: center;
+  background-image: url("asiancuisine.jpg");
+  background-size: cover;
+  color: darkslateblue;
+  margin-bottom: -1.7%;
+}
+.sectionOther ul{
+  display: flex;
+  justify-content: space-between;
+  width:80%;
+  
+}
+
+.lastSection{
+  text-align: center;
+  background:lightgrey;
+  color: darkslateblue;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media (hover: hover) {
+  a:hover {
+    background: paleturquoise;
+  }
+}
